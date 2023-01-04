@@ -1,0 +1,32 @@
+
+  
+  ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    margin-bottom: -30px;
+    padding: 1rem;
+    width: 80%;
+  }
+.list-btn-delete{
+    position: absolute;
+    height: 30px;
+    right: 108px;
+    top: 26px; 
+    background: rgb(212, 55, 55);
+  }
+  .list-btn-edit{
+    position: absolute;
+    height: 30px;
+    right: 75px;
+    top: 26px;
+    background: rgb(212, 55, 55);
+  }
